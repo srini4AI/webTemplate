@@ -115,7 +115,7 @@ const Home = () => {
                   <li className={styles.navItem}><a className={`${styles.navLink}`} href="https://www.facebook.com/webpixels" target="_blank" rel="noreferrer"><i className="fab fa-facebook"></i></a></li>
                </ul>
             </div>
-            <div className="col-lg-3 col-6 col-sm-6 ml-lg-auto mb-5 mb-lg-0">
+            <div className={`${"col-lg-3 col-12 col-sm-6 ml-lg-auto mb-5 mb-lg-0"} ${styles.footerLayouRes}`}>
                <h6 className="heading mb-3">Quick Links</h6>
                <ul className={`${styles.listunstyled}`}>
                   <li><a href="#">Home</a></li>
@@ -125,7 +125,7 @@ const Home = () => {
                   <li><a href="#">Management</a></li>
                </ul>
             </div>
-            <div className="col-lg-4 col-4 col-sm-4 mb-5 mb-lg-0">
+            <div className={`${"col-lg-4 col-12 col-sm-4 mb-5 mb-lg-0"} ${styles.footerLayouRes}`}>
                <h6 className="heading mb-3">About</h6>
                <ul className={`${styles.listunstyled}`}>
                   <li><a href="#">X-Ray Baggage Scanners</a></li>
