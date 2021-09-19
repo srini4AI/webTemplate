@@ -4,7 +4,7 @@ import styles from './navbar.module.css';
 export const NavBarHeader =() =>{
     return(<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
     <Container>
-    <Navbar.Brand href="#home"><div className={styles.logoNav}><img src="/images/rapiscan_ltd_1.png" width="75"/><h4> ESIL - Rapiscan Ltd</h4></div></Navbar.Brand>
+    <Navbar.Brand href="#home"><div className={styles.logoNav}><img src="/images/rapiscan_ltd_1.png" className={styles.logoImage}/><h4 className={styles.logoText}> ESIL - Rapiscan Ltd</h4></div></Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="me-auto">

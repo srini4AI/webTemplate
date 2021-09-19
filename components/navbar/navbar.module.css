@@ -1,6 +1,21 @@
 .logoNav {
     display:inline-block;
   }
+.logoText{
+  display: inline-block;
+}
+.logoImage {
+  width:75px;
+}
+
+@media only screen and (max-width: 480px ) {
+  .logoText{
+    font-size:16px;
+  }
+  .logoImage {
+    width:35px;
+  }
+}
 
   .logoNav img,.logoNav h4  {
     display:inline;
