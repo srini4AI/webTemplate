@@ -1,0 +1,18 @@
+.cardImageTop {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-height: 190px;
+    padding: 10px !important;
+    border-radius: 20px;
+}
+
+
+
+div.cardSlick {
+
+    display:flex;
+    position: relative;
+
+    box-sizing: content-box;
+  }
