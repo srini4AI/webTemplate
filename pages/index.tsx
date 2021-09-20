@@ -41,31 +41,31 @@ const Home = () => {
 				<div className="row justify-content-md-center">
 
 							<div className="col-6 col-lg-2 col-sm-4">
-								<h1>4966+</h1>
+								<h3>4966+</h3>
 								<div className="clearfix"></div>
 								<p className="uppercase ">X-RAY BAGGAGE SCANNERS</p>
 							</div>
 							
 							<div className="col-6  col-lg-2  col-sm-4">
-								<h1>7652+</h1>
+								<h3>7652+</h3>
 								<div className="clearfix"></div>
 								<p className="uppercase ">DOOR FRAME METAL DETECTORS</p>
 							</div>
 							
 							<div className="col-6  col-lg-2  col-sm-4">
-								<h1>170+</h1>
+								<h3>170+</h3>
 								<div className="clearfix"></div>
 								<p className="uppercase ">COUNTRIES SUPPLIED</p>
 							</div>
 							
 							<div className="col-6  col-lg-2  col-sm-4">
-								<h1>3711+</h1>
+								<h3>3711+</h3>
 								<div className="clearfix"></div>
 								<p className="uppercase ">EXPLOSIVE DETECTORS</p>
 							</div>
 							
 							<div className="col-6  col-lg-2  col-sm-3">
-								<h1>1720+</h1>
+								<h3>1720+</h3>
 								<div className="clearfix"></div>
 								<p className="uppercase ">VEHICLE MOUNT SCANNERS</p>
 							</div>
