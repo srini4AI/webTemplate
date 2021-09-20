@@ -103,7 +103,7 @@ const Home = () => {
       <div className="container pt-4">
         
          <div className="row">
-            <div className="col-lg-5 mb-5 col-12 mb-lg-0">
+            <div className="col-lg-5  col-12 mb-lg-0">
                <a href="index.html"><div className={styles.logoNav}><img src="/images/rapiscan_ltd_1.png" width="75"/><h4> ESIL - Rapiscan Ltd</h4></div></a>
                <h6 className="heading m-3">Corporate Office</h6>
                <p className={`${"m-3"} ${styles.addressBox}`}>8-1-305 & 306, 6th Floor, Unit-2, Anand Silicon Chip, Shaikpet,
@@ -115,7 +115,7 @@ const Home = () => {
                   <li className={styles.navItem}><a className={`${styles.navLink}`} href="https://www.facebook.com/webpixels" target="_blank" rel="noreferrer"><i className="fab fa-facebook"></i></a></li>
                </ul>
             </div>
-            <div className={`${"col-lg-3 col-12 col-sm-6 ml-lg-auto mb-5 mb-lg-0"} ${styles.footerLayouRes}`}>
+            <div className={`${"col-lg-3 col-12 col-sm-6 ml-lg-auto  mb-lg-0 d-none d-lg-block"} ${styles.footerLayouRes}`}>
                <h6 className="heading mb-3">Quick Links</h6>
                <ul className={`${styles.listunstyled}`}>
                   <li><a href="#">Home</a></li>
@@ -125,7 +125,7 @@ const Home = () => {
                   <li><a href="#">Management</a></li>
                </ul>
             </div>
-            <div className={`${"col-lg-4 col-12 col-sm-4 mb-5 mb-lg-0"} ${styles.footerLayouRes}`}>
+            <div className={`${"col-lg-4 col-12 col-sm-4 mb-5 mb-lg-0 d-none d-lg-block"} ${styles.footerLayouRes}`}>
                <h6 className="heading mb-3">About</h6>
                <ul className={`${styles.listunstyled}`}>
                   <li><a href="#">X-Ray Baggage Scanners</a></li>
@@ -137,7 +137,7 @@ const Home = () => {
             </div>
         
          </div>
-         <hr className="divider divider-fade divider-dark my-4"/>
+         <hr className="divider divider-fade divider-dark my-2"/>
          <div className="row align-items-center justify-content-md-between pb-4">
             <div className="col-md-6">
                <div className={`copyright font-weight-bold text-center ${styles.textmdleft} ${styles.textSm}`}>© 2021 

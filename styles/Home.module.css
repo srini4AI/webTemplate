@@ -12,8 +12,18 @@
 .footerDark .footerLink, .footerDark .listunstyled li a, .footerDark .nav .navItem .navLink {
   color: #a0aec0;
   text-decoration:none;
-}
 
+}
+li.navItem a.navLink{
+  margin:2px;
+  color: #2f75a0;
+  text-decoration:none;
+}
+li.navItem a.navLink:hover{
+  margin:2px;
+  color: #549cc9;
+  text-decoration:underline!important;
+}
 .svgBannerBottom {
   position: absolute;
     bottom: 0;
@@ -52,9 +62,12 @@ transform: rotate(
 }
 .fontweightbold {
   font-weight: 600!important;
+  text-decoration: none;
+  color: #93aea9;
 }
 .footerDark .listunstyled li a {
   color: rgba(255,255,255,.8);
+  
 }
 
 
