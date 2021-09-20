@@ -2,9 +2,9 @@ import React from 'react';
 import {Navbar, Container,Nav,NavDropdown} from 'react-bootstrap';
 import styles from './navbar.module.css';
 export const NavBarHeader =() =>{
-    return(<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    return(<Navbar collapseOnSelect expand="lg" bg="light" variant="light">
     <Container>
-    <Navbar.Brand href="#home"><div className={styles.logoNav}><img src="/images/rapiscan_ltd_1.png" className={styles.logoImage}/><h4 className={styles.logoText}> ESIL - Rapiscan Ltd</h4></div></Navbar.Brand>
+    <Navbar.Brand href="#home"><div className={styles.logoNav}><img src="/images/rapiscan ltd_1ss.png" className={styles.logoImage}/><h4 className={styles.logoText}> ECIL - Rapiscan Ltd</h4></div></Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="me-auto">

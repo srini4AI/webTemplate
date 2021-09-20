@@ -3,7 +3,14 @@
   }
 .logoText{
   display: inline-block;
+  color: #006aae;
+    font-weight: 600;
+    /* font-family: 'Encode Sans', sans-serif; */
+    /* font-family: 'Manrope', sans-serif; */
+    font-family: 'Archivo', sans-serif;
 }
+
+
 .logoImage {
   width:75px;
 }

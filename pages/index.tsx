@@ -104,7 +104,7 @@ const Home = () => {
         
          <div className="row">
             <div className="col-lg-5  col-12 mb-lg-0">
-               <a href="index.html"><div className={styles.logoNav}><img src="/images/rapiscan_ltd_1.png" width="75"/><h4> ESIL - Rapiscan Ltd</h4></div></a>
+               <a href="index.html"><div className={styles.logoNav}><img src="/images/rapiscan_ltd_1.png" width="75"/><h4> ECIL - Rapiscan Ltd</h4></div></a>
                <h6 className="heading m-3">Corporate Office</h6>
                <p className={`${"m-3"} ${styles.addressBox}`}>8-1-305 & 306, 6th Floor, Unit-2, Anand Silicon Chip, Shaikpet,
                Tolichowki, Hyderabad – 500 008, Telengana, India. 040 6700 0800</p>
