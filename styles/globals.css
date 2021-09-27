@@ -138,6 +138,21 @@ section#content-map::after {
   background:rgba(0,0,0,0.5);
 }
 
+
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+    font-size: 32px !important;
+    line-height: 1;
+    opacity: 1 !important;
+    color: #cecece !important;
+}
+
+
+
+.slick-prev {
+  left: -36px !important;
+}
+
 p.lead {
   display: block;/* or inline-block */
   text-overflow: ellipsis;
@@ -152,17 +167,7 @@ h5.card-title{
 .carousel-caption {
   z-index: 1;
 }
-.slick-prev:before, .slick-next:before {
-  font-family: 'slick';
-    font-size: 32px !important;
-    line-height: 1;
-    opacity: 1 !important;
-    color: #cecece !important;
-}
 
-.slick-prev {
-  left: -36px !important;
-}
 
 div.card {
   border-radius: 20px;

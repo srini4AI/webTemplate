@@ -9,8 +9,8 @@ export const BannerCarousel =() =>{
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3  className="display-3">First slide label</h3>
-      <p className="lead">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3  className="display-3   animate__animated animate__zoomInDown" >First slide label</h3>
+      <p className="lead  animate__animated  animate__fadeInRightBig">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -21,8 +21,8 @@ export const BannerCarousel =() =>{
     />
 
     <Carousel.Caption>
-      <h3   className="display-3">Second slide label</h3>
-      <p  className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3   className="display-3  animate__animated animate__zoomInDown">Second slide label</h3>
+      <p  className="lead  animate__animated  animate__fadeInLeftBig">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -33,8 +33,8 @@ export const BannerCarousel =() =>{
     />
 
     <Carousel.Caption>
-      <h3   className="display-3">Third slide label</h3>
-      <p  className="lead">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3   className="display-3   animate__animated animate__fadeInDownBig">Third slide label</h3>
+      <p  className="lead animate__animated  animate__fadeInRightBig">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>)

@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BannerCarousel } from '../components/carousels';
 import styles from '../styles/Home.module.css'
 import { ProductPortfolio } from '../components/product';
+import "animate.css";
 const Home = () => {
   return (
     <>
@@ -94,7 +95,10 @@ const Home = () => {
         <ProductPortfolio></ProductPortfolio>
       </section>
       </div>
-   
+      <section className="p-3 m-4">
+
+      <div className="container"><div className="row justify-content-center"><div className="col-lg-7 text-center"><h2 className="mb-5">Our Major Clients</h2></div></div></div>
+      </section>
    <footer className="position-relative" id="footer-main">
    <div className={`${'footer pt-lg-7 bg-dark'} ${styles["footerDark"]}` }>
       <div className="shape-container shape-line shape-position-top shape-orientation-inverse">
